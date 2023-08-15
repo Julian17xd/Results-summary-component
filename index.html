@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container m-auto p-0 row ">
+      <div class="sec-1 col-sm-6 pt-3 pb-4 d-flex flex-column gap-3 align-items-center rounded-md rounded-bottom-5 text-center">
+        <span>Your Result</span>
+        <div class="circulo d-flex flex-column rounded-circle p-4">
+          <span class="num fw-bold fs-1 px-3" style="color: white;">76</span> 
+          <span style="font-size: 12px;">of 100</span>
+        </div>
+        <span class="fw-bold" style="color: white;">Great</span>
+        <span class="w-75">
+          You scored higher than 65% of the people who have taken these tests.
+        </span>
+      </div>
+
+      <div class="sec-2 col-sm-6 p-4 d-flex flex-column gap-3 fw-medium">
+        <span class="summary fw-bold">Summary</span>
+        <div class="reaction rounded-3 p-2 d-flex justify-content-between align-items-center">
+          <div>
+            <i class="bi bi-lightning-charge"></i>
+            <span>Reaction</span>
+          </div>
+          <div class="d-flex align-items-center gap-1">
+            <span class="span-dark">80</span><span class="span-light">/ 100</span>
+          </div>
+        </div>
+
+        <div class="memory rounded-3 p-2 d-flex justify-content-between">
+          <div>
+            <i class="bi bi-patch-plus"></i>
+            <span>Memory</span>
+          </div>
+          <div class="d-flex align-items-center gap-1">
+            <span class="span-dark">92</span><span class="span-light">/ 100</span>
+          </div>
+        </div>
+
+        <div class="verbal rounded-3 p-2 d-flex justify-content-between">
+          <div>
+            <i class="bi bi-chat-dots"></i>
+            <span>Verbal</span>
+          </div>
+          <div class="d-flex align-items-center gap-1">
+            <span class="span-dark">61</span><span class="span-light">/ 100</span>
+          </div>
+        </div>
+
+        <div class="visual rounded-3 p-2 d-flex justify-content-between">
+          <div>
+            <i class="bi bi-eye"></i>
+            <span>Visual</span>
+          </div>
+          <div class="d-flex align-items-center gap-1">
+            <span class="span-dark">72 </span><span class="span-light">/ 100</span>
+          </div>
+        </div>
+
+        <button class="boton btn rounded-5 p-3" style="color: white;">Continue</button>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
